@@ -1,6 +1,14 @@
 'use strict';
 
 /**
+ * `hexStringToInt`
+ * Convert string hex to integer.
+ * @param {string} input - Input hexadecimal color in string format, i.e. #ff0099
+ * @returns {number} Integer conversion. 
+ */
+const hexStringToInt = (input) => parseInt(input.replace(/#/g, ''), 16);
+
+/**
  * `mockTHREEx`
  * Mock THREEx.js for unit testing purposes.
  */
@@ -26,6 +34,18 @@ const mockTHREE = {
       this.position = {
         set: () => {}
       };
+
+      this.color = null;
+
+      // Implicit string to hex conversion.
+      if (typeof this.color === 'string') {
+        const isValidColor = /^#[0-9A-F]{6}$/i.test(this.color);
+        if (isValidColor) {
+          this.color = hexStringToInt(this.color);
+        } else {
+          throw new Error(`Invalid color ${this.color}`);
+        }
+      }
     }
   },
 
@@ -118,6 +138,7 @@ const mockDataStore = {
 };
 
 module.exports = {
+  hexStringToInt,
   mockTHREEx,
   mockTHREE,
   mockDataStore,
