@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3
+- Add unit test for hexStringToInt.
+
 ## 1.0.2
 - Add hexStringToInt and update PointLight to support color property, and converting it.
 

@@ -1,4 +1,9 @@
-const { mockTHREEx, mockTHREE, mockDataStore } = require('../index');
+const { hexStringToInt, mockTHREEx, mockTHREE, mockDataStore } = require('../index');
+
+test('convert hex string #cccccc to int 13421772 ', () => {
+  const result = hexStringToInt('#cccccc');
+  expect(result).toBe(13421772);
+});
 
 test('THREEx.WindowResize can be instantiated', () => {
   const windowResize = new mockTHREEx.WindowResize();
