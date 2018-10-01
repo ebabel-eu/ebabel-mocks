@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4
+- Fix PointLight constructor, so it takes color as a parameter.
+
 ## 1.0.3
 - Add unit test for hexStringToInt.
 

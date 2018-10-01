@@ -30,12 +30,12 @@ const mockTHREE = {
   },
 
   PointLight: class PointLight {
-    constructor() {
+    constructor(color) {
       this.position = {
         set: () => {}
       };
 
-      this.color = null;
+      this.color = color;
 
       // Implicit string to hex conversion.
       if (typeof this.color === 'string') {
