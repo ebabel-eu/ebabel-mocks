@@ -1,0 +1,40 @@
+{
+  "name": "ebabel-mocks",
+  "version": "1.0.0",
+  "description": "Mock THREE.js, THREEx.js, and dataStore for unit testing purposes.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "npm run eslint && jest --coverage",
+    "jsdoc": "node ./node_modules/.bin/jsdoc -d ./docs ./index.js",
+    "eslint": "node ./node_modules/.bin/eslint ./index.js ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebabel-eu/ebabel-mocks.git"
+  },
+  "keywords": [
+    "games",
+    "module",
+    "javascript"
+  ],
+  "author": "Thomas Amar <hello@ebabel.eu> (https://ebabel.eu/)",
+  "contributors": [
+    "Dave Pitts <dgapitts@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ebabel-eu/ebabel-mocks/issues"
+  },
+  "homepage": "https://github.com/ebabel-eu/ebabel-mocks#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0",
+    "jsdoc": "^3.5.5"
+  }
+}
