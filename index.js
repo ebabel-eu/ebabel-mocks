@@ -87,6 +87,20 @@ const mockTHREE = {
       };
     }
   },
+
+  Box3: class Box3 {
+    constructor() {}
+    setFromObject() {
+      return {
+        getSize: () => {},
+        getCenter: () => {}
+      };
+    }
+  },
+
+  Vector3: class Vector3 {
+    constructor() {}
+  },
 };
 
 /**
