@@ -24,6 +24,28 @@ test('THREE.PointLight can be instantiated and has a position property with a se
   expect(pointLight.position.set() !== null).toBe(true);
 });
 
+test('THREE.PointLight can not instantiated with valid non-default color string ', () => {
+  const color='#ff00cc';
+  // Invalid color #ff00zz
+  const pointLight = new mockTHREE.PointLight(color);
+  expect(pointLight !== undefined && pointLight !== null).toBe(true);
+  expect(pointLight.position !== undefined).toBe(true);
+  expect(pointLight.position.set() !== null).toBe(true);
+});
+
+test('THREE.PointLight can not be instantiated with invalid non-default color string ', () => 
+{
+  const color = '#cccccz';
+  try {
+      new mockTHREE.PointLight(color);
+      // Fail test if above expression doesn't throw anything.
+      expect(true).toBe(false);
+  } catch (e) {
+      expect(e.message).toBe(`Invalid color ${color}`);
+  }
+
+});
+
 test('THREE.Scene can be instantiated and has an add method that can be called', () => {
   const scene = new mockTHREE.Scene();
   expect(scene !== undefined && scene !== null).toBe(true);
@@ -84,6 +106,12 @@ test('THREE.Mesh can be instantiated', () => {
   expect(mesh !== undefined && mesh !== null).toBe(true);
   expect(mesh.position !== undefined).toBe(true);
   expect(mesh.position.set() !== null).toBe(true);
+});
+
+test('THREE.Box3 can be instantiated', () => {
+  const box3 = new mockTHREE.Box3();
+  expect(box3 !== undefined && box3 !== null).toBe(true);
+  expect(box3.setFromObject() !== null).toBe(true);
 });
 
 test('dataStore exists', () => {
