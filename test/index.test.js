@@ -33,6 +33,18 @@ test('THREE.PointLight can not instantiated with valid non-default color string 
   expect(pointLight.position.set() !== null).toBe(true);
 });
 
+test('THREE.PointLight can not be instantiated with invalid non-default color string ', () => 
+{
+  const color = '#cccccz';
+  try {
+      new mockTHREE.PointLight(color);
+      // Fail test if above expression doesn't throw anything.
+      expect(true).toBe(false);
+  } catch (e) {
+      expect(e.message).toBe(`Invalid color ${color}`);
+  }
+
+});
 
 test('THREE.Scene can be instantiated and has an add method that can be called', () => {
   const scene = new mockTHREE.Scene();
