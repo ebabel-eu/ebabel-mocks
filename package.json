@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebabel-eu/ebabel-mocks.git"
+    "url": "git+https://github.com/ebabel-games/ebabel-mocks.git"
   },
   "keywords": [
     "games",
@@ -26,9 +26,9 @@
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ebabel-eu/ebabel-mocks/issues"
+    "url": "https://github.com/ebabel-games/ebabel-mocks/issues"
   },
-  "homepage": "https://github.com/ebabel-eu/ebabel-mocks#readme",
+  "homepage": "https://github.com/ebabel-games/ebabel-mocks#readme",
   "dependencies": {},
   "devDependencies": {
     "ajv": "^6.5.4",

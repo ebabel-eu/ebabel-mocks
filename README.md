@@ -1,5 +1,5 @@
 # ebabel-mocks
-[![Build Status](https://travis-ci.org/ebabel-eu/ebabel-mocks.svg?branch=master)](https://travis-ci.org/ebabel-eu/ebabel-mocks)
+[![Build Status](https://travis-ci.org/ebabel-games/ebabel-mocks.svg?branch=master)](https://travis-ci.org/ebabel-games/ebabel-mocks)
 
 Mock THREE.js, THREEx.js, and dataStore for unit testing purposes.
 
