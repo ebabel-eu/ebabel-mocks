@@ -112,7 +112,19 @@ test('THREE.Box3 can be instantiated', () => {
   const box3 = new mockTHREE.Box3();
   expect(box3 !== undefined && box3 !== null).toBe(true);
   expect(box3.setFromObject() !== null).toBe(true);
+  expect(box3.setFromObject().getSize(7) == 7).toBe(true);
+  expect(box3.setFromObject().getCenter(7) == 7).toBe(true);
 });
+
+test('THREE.Vector3 can be instantiated', () => {
+  const vector3 = new mockTHREE.Vector3();
+  expect(vector3 !== undefined && vector3 !== null).toBe(true);
+});
+
+
+
+
+
 
 test('dataStore exists', () => {
   expect(mockDataStore !== undefined && mockDataStore !== null).toBe(true);

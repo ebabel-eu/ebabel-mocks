@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.5
+- Update mock box3.setFromObject().getSize() and box3.setFromObject().getCenter() to accept input 
+
 ## 1.0.4
 - Fix PointLight constructor, so it takes color as a parameter.
 
