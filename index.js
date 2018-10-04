@@ -112,8 +112,8 @@ const mockTHREE = {
     constructor() {}
     setFromObject() {
       return {
-        getSize: () => {},
-        getCenter: () => {}
+        getSize: (input) => input,
+        getCenter: (input) => input
       };
     }
   },
