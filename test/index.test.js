@@ -112,6 +112,10 @@ test('THREE.Box3 can be instantiated', () => {
   const box3 = new mockTHREE.Box3();
   expect(box3 !== undefined && box3 !== null).toBe(true);
   expect(box3.setFromObject() !== null).toBe(true);
+  expect(box3.getSize !== null).toBe(true);
+  expect(box3.getCenter !== null).toBe(true);
+  expect(box3.setFromObject().getSize(7) == 7).toBe(true);
+  expect(box3.setFromObject().getCenter(7) == 7).toBe(true);
 });
 
 test('THREE.Vector3 can be instantiated', () => {
