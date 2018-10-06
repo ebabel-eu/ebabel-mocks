@@ -1,14 +1,4 @@
-const { hexStringToInt, mockTHREEx, mockTHREE, mockDataStore } = require('../index');
-
-test('convert hex string #cccccc to int 13421772 ', () => {
-  const result = hexStringToInt('#cccccc');
-  expect(result).toBe(13421772);
-});
-
-test('THREEx.WindowResize can be instantiated', () => {
-  const windowResize = new mockTHREEx.WindowResize();
-  expect(windowResize !== undefined && windowResize !== null).toBe(true);
-});
+const mockTHREE = require('../src/mock-three');
 
 test('THREE.Clock can be instantiated and has a start method that can be called', () => {
   const clock = new mockTHREE.Clock();
@@ -78,6 +68,11 @@ test('THREE.AudioLoader can be instantiated', () => {
   expect(audioLoader.load() !== null).toBe(true);
 });
 
+test('THREE.PositionalAudio can be instantiated', () => {
+  const positionalAudio = new mockTHREE.PositionalAudio();
+  expect(positionalAudio !== undefined && positionalAudio !== null).toBe(true);
+});
+
 test('THREE.WebGLRenderer can be instantiated', () => {
   const renderer = new mockTHREE.WebGLRenderer();
   expect(renderer !== undefined && renderer !== null).toBe(true);
@@ -119,13 +114,4 @@ test('THREE.Box3 can be instantiated', () => {
 test('THREE.Vector3 can be instantiated', () => {
   const vector3 = new mockTHREE.Vector3();
   expect(vector3 !== undefined && vector3 !== null).toBe(true);
-});
-
-
-
-
-
-
-test('dataStore exists', () => {
-  expect(mockDataStore !== undefined && mockDataStore !== null).toBe(true);
 });

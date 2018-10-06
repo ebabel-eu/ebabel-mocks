@@ -1,19 +1,24 @@
 # Changelog
 
-## 1.0.5
+## [1.0.6](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.6)
+- Add THREE.PositionalAudio mock and unit test.
+- Improve changelog.
+- Refactored index.js into several files and split the unit tests accordingly.
+
+## [1.0.5](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.5)
 - Update mock box3.setFromObject().getSize() and box3.setFromObject().getCenter() to accept input 
 
-## 1.0.4
+## [1.0.4](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.4)
 - Fix PointLight constructor, so it takes color as a parameter.
 
-## 1.0.3
+## [1.0.3](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.3)
 - Add unit test for hexStringToInt.
 
-## 1.0.2
+## [1.0.2](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.2)
 - Add hexStringToInt and update PointLight to support color property, and converting it.
 
-## 1.0.1
+## [1.0.1](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.1)
 - Add mocks for THREE.Box3 and THREE.Vector3
 
-## 1.0.0
+## [1.0.0](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.0)
 - Mock THREE.js, THREEx.js, and dataStore for unit testing purposes.
