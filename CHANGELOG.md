@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.7](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.7)
+- Add canvas mock and unit test.
+- Expand THREE.js mock with Texture, SpriteMaterial, and Sprite.
+
 ## [1.0.6](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.6)
 - Add THREE.PositionalAudio mock and unit test.
 - Improve changelog.

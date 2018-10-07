@@ -77,12 +77,27 @@ const mockTHREE = {
     constructor() {}
   },
 
+  Texture: class Texture {
+    constructor() {}
+  },
+
   TextureLoader: class TextureLoader {
     constructor() {}
     load() {}
   },
 
-  MeshBasicMaterial: class MeshBasicMaterial {
+  Sprite: class Sprite {
+    constructor() {
+      this.scale = {
+        set: () => {},
+      };
+      this.center = {
+        set: () => {},
+      };
+    }
+  },
+
+  SpriteMaterial: class SpriteMaterial {
     constructor() {}
   },
 
@@ -92,6 +107,10 @@ const mockTHREE = {
         set: () => {}
       };
     }
+  },
+
+  MeshBasicMaterial: class MeshBasicMaterial {
+    constructor() {}
   },
 
   Box3: class Box3 {
