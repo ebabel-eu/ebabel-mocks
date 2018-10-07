@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.0.0](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v2.0.0)
+- Remove creation and state from player in dataStore mock.
+
 ## [1.0.10](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.10)
 - Remove variables related to keyboard scope.
 

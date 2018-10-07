@@ -6,14 +6,9 @@
 */
 const mockDataStore = {
   player: {
-    creation: {
-      position: [0, 0, 0],
-      rotation: [0, 0, 0],
-    },
-    state: {
-      position: [0, 0, 0],
-      rotation: [0, 0, 0],
-    },
+    name: null,
+    position: [0, 0, 0],
+    rotation: [0, 0, 0],
   },
 };
 
