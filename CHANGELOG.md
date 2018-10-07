@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.10](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.10)
+- Remove variables related to keyboard scope.
+
 ## [1.0.9](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.9)
 - Add moveSpeed and turnSpeed to dataStore.
 

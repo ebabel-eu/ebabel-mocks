@@ -15,13 +15,6 @@ const mockDataStore = {
       rotation: [0, 0, 0],
     },
   },
-  moveForward: false,
-  moveBackward: false,
-  turnLeft: false,
-  turnRight: false,
-  moveUp: false,
-  moveSpeed : 10,
-  turnSpeed: 2,
 };
 
 module.exports = mockDataStore;
