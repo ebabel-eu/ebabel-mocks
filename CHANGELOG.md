@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.8](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.8)
+- Add player directions to mock dataStore: moveForward, moveBackward, turnLeft, turnRight, and moveUp.
+
 ## [1.0.7](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.7)
 - Add canvas mock and unit test.
 - Expand THREE.js mock with Texture, SpriteMaterial, and Sprite.

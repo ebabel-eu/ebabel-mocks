@@ -12,6 +12,11 @@ const mockDataStore = {
       rotation: [0, 0, 0],
     },
   },
+  moveForward: false,
+  moveBackward: false,
+  turnLeft: false,
+  turnRight: false,
+  moveUp: false,
 };
 
 module.exports = mockDataStore;
