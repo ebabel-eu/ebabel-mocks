@@ -6,7 +6,10 @@
 */
 const mockDataStore = {
   player: {
-    creation: {},
+    creation: {
+      position: [0, 0, 0],
+      rotation: [0, 0, 0],
+    },
     state: {
       position: [0, 0, 0],
       rotation: [0, 0, 0],
@@ -17,6 +20,8 @@ const mockDataStore = {
   turnLeft: false,
   turnRight: false,
   moveUp: false,
+  moveSpeed : 10,
+  turnSpeed: 2,
 };
 
 module.exports = mockDataStore;

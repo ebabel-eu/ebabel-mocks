@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.9](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.9)
+- Add moveSpeed and turnSpeed to dataStore.
+
 ## [1.0.8](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v1.0.8)
 - Add player directions to mock dataStore: moveForward, moveBackward, turnLeft, turnRight, and moveUp.
 
