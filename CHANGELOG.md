@@ -1,5 +1,8 @@
 # Changelog
 
+## [3.0.0](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v3.0.0)
+- Add EG mock and remove dataStore as solo mock.
+
 ## [2.0.0](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v2.0.0)
 - Remove creation and state from player in dataStore mock.
 

@@ -12,11 +12,11 @@ npm install --save ebabel-mocks
 
 ### Usage
 ```
-const { mockTHREEx, mockTHREE, mockDataStore, mockCanvas } = require('ebabel-mocks');
+const { mockTHREEx, mockTHREE, mockEG, mockCanvas } = require('ebabel-mocks');
 
 const THREEx = mockTHREEx;
 const THREE = mockTHREE;
-const dataStore = mockDataStore;
+const EG = mockEG;
 const canvas = mockCanvas;
 ```
 
