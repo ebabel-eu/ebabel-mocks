@@ -1,5 +1,8 @@
 # Changelog
 
+## [3.1.0](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v3.1.0)
+- Add io and socket mocks.
+
 ## [3.0.0](https://github.com/ebabel-games/ebabel-mocks/releases/tag/v3.0.0)
 - Add EG mock and remove dataStore as solo mock.
 

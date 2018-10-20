@@ -1,6 +1,6 @@
 {
   "name": "ebabel-mocks",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Mock THREE.js, THREEx.js, and dataStore for unit testing purposes.",
   "main": "index.js",
   "engines": {
